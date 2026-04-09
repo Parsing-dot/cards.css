@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: beige;
+    border-radius: 10%;
+    border-color: cornflowerblue;
+}
+h1 {
+    align-items: center;
+}
+
+.services {
+    padding : 40px 20px;
+    text-align: center;
+}
+.services h1 {
+    color: brown;
+    text-shadow: white;
+    padding-bottom: 30px;
+}
+.services h1:hover {
+    color: burlywood;
+    text-decoration: line-through;
+    font-size: 30px;
+}
+.service-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 15px;
+    border-color: brown;
+    border-width: 3px;
+    border-style: double;
+    top: 50%;
+    left: 50%;
+    flex-wrap: wrap;
+}
+.service-card {
+    border-radius: 30px;
+    border-color: burlywood;
+    height: 300px;
+    box-shadow: 0px 4px 8px brown;
+    padding: 20px;
+    transform: transform 7s;
+    font-style: italic;
+}
+.service-card:hover {
+    transform: translateY(10px);
+}
+.service-card h2{
+    color: burlywood;
+    text-decoration: underline;
+}
